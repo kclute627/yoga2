@@ -40,16 +40,11 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kclute627/yoga.git"
-  },
+  
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kclute627/yoga/issues"
-  },
-  "homepage": "https://github.com/kclute627/yoga#readme",
+  
+  
   "devDependencies": {
     "react-svg": "^11.0.3",
     "redux": "^4.0.4"
