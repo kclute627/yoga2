@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {connect} from "react-redux";
 import Fade from 'react-reveal/Fade';
+import PhotoBlock from '../Components/PhotoBloc';
+import photo1 from '../assets/home_background.jpg'
 
 
 
@@ -75,8 +77,22 @@ class Mainpage extends Component {
             <Fade right>
 
            
-            <div className="mainpage__photos">
-                PHOTOS
+            <div className="photos">
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
+               <PhotoBlock img={photo1} alt="yoga Chicago"/>
             </div>
 
             </Fade>
