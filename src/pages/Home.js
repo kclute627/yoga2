@@ -137,7 +137,7 @@ class Home extends Component {
                   items: 5
                 },
                 1524: {
-                  items: 5
+                  items: 4
                 },
                 1900: {
                   items: 7
