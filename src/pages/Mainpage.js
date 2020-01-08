@@ -73,12 +73,7 @@ class Mainpage extends Component {
           <PhotoBlock img={photo1} alt="yoga Chicago" />
           <PhotoBlock img={photo1} alt="yoga Chicago" />
           <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
+         
         </div>
       </Fade>
     );
