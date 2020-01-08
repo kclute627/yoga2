@@ -23,20 +23,27 @@ class Mainpage extends Component {
     );
 
     const about = (
-        
-        <Fragment>
-
-      
+      <Fragment>
         <div className="about__left">
           <img src={profile} alt="" className="about__img" />
-          
         </div>
         <div className="about__right">
-        <h1 className="about__header">About Amy</h1>
+          <h1 className="about__header">About Amy</h1>
+          <div className="about__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Malesuada nunc vel risus commodo viverra maecenas accumsan lacus
+            vel. Sapien et ligula ullamcorper malesuada proin libero. Lacus sed
+            viverra tellus in hac habitasse platea dictumst. Nisl vel pretium
+            lectus quam id leo. Consectetur lorem donec massa sapien faucibus.
+            Elementum tempus egestas sed sed risus pretium quam. Netus et
+            malesuada fames ac turpis egestas. Non enim praesent elementum
+            facilisis leo vel fringilla est ullamcorper. Sit amet risus nullam
+            eget felis eget nunc. Quis auctor elit sed vulputate mi. Scelerisque
+            in dictum non consectetur a erat nam at lectus.
+          </div>
         </div>
-        </Fragment>
-       
-     
+      </Fragment>
     );
     const contact = (
       <Fade right>
