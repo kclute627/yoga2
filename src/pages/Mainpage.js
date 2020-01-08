@@ -2,8 +2,21 @@ import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
 import Fade from "react-reveal/Fade";
 import PhotoBlock from "../Components/PhotoBloc";
-import photo1 from "../assets/home_background.jpg";
+import photo1 from "../assets/yoga2.jpg";
 import profile from "../assets/profile.jpg";
+import photo2 from "../assets/yoga1.jpg";
+import photo3 from "../assets/yoga3.jpg";
+import photo4 from "../assets/yoga4.jpg";
+import photo5 from "../assets/yoga5.jpg";
+import photo6 from "../assets/yoga6.jpg";
+import photo7 from "../assets/yoga7.jpg";
+import photo8 from "../assets/yoga8.jpg";
+import photo9 from "../assets/yoga9.jpg";
+
+
+
+
+
 
 class Mainpage extends Component {
   render() {
@@ -65,14 +78,12 @@ class Mainpage extends Component {
       <Fade right>
         <div className="photos">
           <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
-          <PhotoBlock img={photo1} alt="yoga Chicago" />
+          <PhotoBlock img={photo2} alt="yoga Chicago" />
+          <PhotoBlock img={photo3} alt="yoga Chicago" />
+          <PhotoBlock img={photo4} alt="yoga Chicago" />
+          <PhotoBlock img={photo5} alt="yoga Chicago" />
+          <PhotoBlock img={photo6} alt="yoga Chicago" />
+          
          
         </div>
       </Fade>

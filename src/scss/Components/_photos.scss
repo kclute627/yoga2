@@ -3,9 +3,10 @@
     
     display: grid;
     margin-top: 3rem;
-    grid-template-rows: repeat(3, 20rem);
+    grid-template-rows: repeat(2, 30rem);
     grid-template-columns: repeat(3, 45rem);
     margin-left: 15rem;
+    box-shadow: 10px -7px 101px -26px rgba(0,0,0,0.75);
 
 
     &__block{
