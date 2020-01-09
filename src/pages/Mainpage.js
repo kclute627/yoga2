@@ -49,7 +49,20 @@ class Mainpage extends Component {
             Malesuada nunc vel risus commodo viverra maecenas accumsan lacus
             vel. Sapien et ligula ullamcorper malesuada proin libero. Lacus sed
             viverra tellus in hac habitasse platea dictumst. Nisl vel pretium
-            lectus quam id leo. 
+            lectus quam id leo. didunt ut labore et dolore magna aliqua.
+            Malesuada nunc vel risus commodo viverra maecenas accumsan lacus
+            vel. Sapien et ligula ullamcorper malesuada proin libero. Lacus sed
+            viverra tellus in hac habitasse platea dictumst. Nisl didunt ut labore et dolore magna aliqua.
+            Malesuada nunc vel risus commodo viverra maecenas accumsan lacus
+            vel. Sapien et ligula ullamcorper malesuada proin libero. Lacus sed
+            viverra tellus in hac habitasse platea dictumst. Nisl 
+          </div>
+          <div className="about__text-mobile">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Malesuada nunc vel risus commodo viverra maecenas accumsan lacus
+            vel. Sapien et ligula ullamcorper malesuada proin libero. Lacus sed
+            viverra tellus  
           </div>
         </div>
         </div>
