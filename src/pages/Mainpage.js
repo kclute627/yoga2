@@ -36,11 +36,12 @@ class Mainpage extends Component {
     );
 
     const about = (
-      <Fragment>
+        <div className="about">
+
+        
         <div className="about__left">
           <img src={profile} alt="" className="about__img" />
-        </div>
-        <div className="about__right">
+          <div className="about__right">
           <h1 className="about__header">About Amy</h1>
           <div className="about__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -56,7 +57,10 @@ class Mainpage extends Component {
             in dictum non consectetur a erat nam at lectus.
           </div>
         </div>
-      </Fragment>
+        </div>
+        
+        </div>
+     
     );
     const contact = (
       <Fade right>
