@@ -67,9 +67,27 @@
     transition: all .4s;
 
     
+    @media(max-width: 460px){
+     grid-column: 3/4;
+     justify-self: end;
+     margin-right: 0;
+     border: none;
+     background: none;
+     
+     
+    }
+
+
+    
 
     &-text {
+
+      @media(max-width: 460px){
+       display: none;
+        
+       }
     }
+
     &:hover {
       border: none;
       background: none;
@@ -106,6 +124,12 @@
       display: none;
       transition: all 1.4s;
 
+      @media(max-width: 460px){
+        display: flex;
+        margin-left: 7rem;
+         
+        }
+
     
       &-box {
         
@@ -120,6 +144,11 @@
        margin-right: 1.5rem;
 
         transition: all 1.4s;
+
+        @media(max-width: 460px){
+          margin-right: 0;
+          
+         }
 
 
        
@@ -195,6 +224,11 @@
 }
 
 .pin {
+  @media(max-width: 460px){
+    display: none;
+    
+     
+    }
   & svg {
     &:hover {
       fill: #bd081c;
@@ -218,6 +252,13 @@
   }
 }
 .skype {
+
+  @media(max-width: 460px){
+    display: none;
+    
+     
+    }
+
   & svg {
     &:hover {
       fill: #00aff0;

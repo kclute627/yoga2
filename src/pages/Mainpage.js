@@ -49,12 +49,7 @@ class Mainpage extends Component {
             Malesuada nunc vel risus commodo viverra maecenas accumsan lacus
             vel. Sapien et ligula ullamcorper malesuada proin libero. Lacus sed
             viverra tellus in hac habitasse platea dictumst. Nisl vel pretium
-            lectus quam id leo. Consectetur lorem donec massa sapien faucibus.
-            Elementum tempus egestas sed sed risus pretium quam. Netus et
-            malesuada fames ac turpis egestas. Non enim praesent elementum
-            facilisis leo vel fringilla est ullamcorper. Sit amet risus nullam
-            eget felis eget nunc. Quis auctor elit sed vulputate mi. Scelerisque
-            in dictum non consectetur a erat nam at lectus.
+            lectus quam id leo. 
           </div>
         </div>
         </div>
