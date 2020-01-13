@@ -8,11 +8,29 @@
     margin-left: 15rem;
     box-shadow: 10px -7px 101px -26px rgba(0,0,0,0.75);
 
-
+    @media(max-width: 1615px){
+        margin-left: -9rem;
+           
+      }
 
     @media(max-width: 415px){
        display: none;
           
+     }
+     &-phone{
+         display: none;
+         height: 5rem;
+         width: 35rem;
+
+         @media(max-width: 415px){
+             height: 5rem;
+             width: 35rem;
+             margin-top: 50%;
+             margin-left: 3rem;
+            display: flex;
+            
+         }
+               
      }
 
 
@@ -27,4 +45,32 @@
             width: 100%;
         }
     }
+}
+
+.image-phone{
+
+
+    &-0{
+        height: 25rem;
+        width: 30rem;
+    }
+    &-1{
+        height: 25rem;
+        width: 30rem;
+    }
+    &-2{
+        height: 25rem;
+        width: 30rem;
+    }
+    &-3{
+        height: 25rem;
+        width: 30rem;
+    }
+    &-4{
+        height: 25rem;
+        width: 30rem;
+    }
+    
+
+    
 }

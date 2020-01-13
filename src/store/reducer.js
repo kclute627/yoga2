@@ -3,7 +3,7 @@ import * as actionTypes from './actions';
 
 
 let initialState = {
-    menu: 'about',
+    menu: 'photos',
 }
 
 

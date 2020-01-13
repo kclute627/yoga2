@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
 import Fade from "react-reveal/Fade";
+import AliceCarousel from "react-alice-carousel";
 import PhotoBlock from "../Components/PhotoBloc";
 import photo1 from "../assets/yoga2.jpg";
 import profile from "../assets/profile.jpg";
@@ -88,6 +89,9 @@ class Mainpage extends Component {
     );
     const photos = (
       <Fade right>
+        <Fragment>
+
+        
         <div className="photos">
           <PhotoBlock img={photo1} alt="yoga Chicago" />
           <PhotoBlock img={photo2} alt="yoga Chicago" />
@@ -98,6 +102,31 @@ class Mainpage extends Component {
           
          
         </div>
+        <div className="photos-phone">
+        <AliceCarousel
+              items={[photo1, photo3, photo9, photo7, photo8].map((cur, i) => (
+                <div className="image-phone">
+                  <img className={`image-phone-${i}`} src={cur} alt="" />
+                </div>
+              ))}
+              duration={1800}
+              
+              autoPlay={true}
+              dotsDisabled={true}
+              buttonsDisabled={true}
+              responsive={{
+                0: {
+                  items: 1
+                },
+                415: {
+                  items: 1 
+                }
+
+              }}
+            />
+
+        </div>
+        </Fragment>
       </Fade>
     );
 
