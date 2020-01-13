@@ -2,11 +2,18 @@
    
     
     display: grid;
-    margin-top: 3rem;
-    grid-template-rows: repeat(2, 30rem);
-    grid-template-columns: repeat(3, 45rem);
+    margin-top: 9rem;
+    grid-template-rows: repeat(2, minmax(20rem, 15rem));
+    grid-template-columns: repeat(3, minmax(45rem, 50%));
     margin-left: 15rem;
     box-shadow: 10px -7px 101px -26px rgba(0,0,0,0.75);
+
+
+
+    @media(max-width: 415px){
+       display: none;
+          
+     }
 
 
     &__block{
