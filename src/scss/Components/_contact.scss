@@ -108,3 +108,14 @@
 
     }
 }
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.message{
+    
+    text-transform: capitalize;
+
+    font-size: 2.2rem;
+}

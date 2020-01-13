@@ -20,6 +20,49 @@ import photo9 from "../assets/yoga9.jpg";
 
 
 class Mainpage extends Component {
+    state = {
+      email: '',
+      error: false,
+      message: false,
+    }
+
+
+    changeHandler = (e) => {
+      this.setState({
+        [e.target.name]: e.target.value,
+      })
+    }
+
+    submitHandler = ( e ) => {
+      e.preventDefault();
+
+      if(this.emailCheck(this.state.email)){
+
+        this.setState({ 
+           email: '',
+          error: false,
+          message: true,
+
+        })
+        setTimeout( () => {
+          this.setState( prevState => ({
+            message: !prevState.message
+          }));
+        }, 4000);
+      }else{
+        this.setState({error: true});
+      }
+
+      
+    }
+
+
+    emailCheck= (email)=>{
+      var re = /\S+@\S+\.\S+/;
+      return re.test(email);
+    }
+
+
   render() {
     const home = (
       <Fade right>
@@ -77,12 +120,26 @@ class Mainpage extends Component {
           <div className="contact-header">
             <div className="contact-header-1">Contact Amy</div>
             <div className="contact-header-2">Schedule a Home Yoga Session</div>
-            <input
+            <form className="form" name='contact' onSubmit={this.submitHandler}>
+              <input
               type="email"
+              name='email'
               placeholder="EMAIL"
               className="contact-header-email"
+              value={this.state.email}
+              onChange={this.changeHandler}
             />
+            {this.state.error ?  
+            <div className="error"> Please Enter a Valid Email Address </div> : 
+            this.state.message ?
+            <div className="message">Thank You Amy will reach out to you within 24 Hours</div>
+            :
+            null}
             <input type="submit" value="Submit" className="contact-btn" />
+            <input type="hidden" name="form-name" value="contact" />
+
+            </form>
+            
           </div>
         </div>
       </Fade>
