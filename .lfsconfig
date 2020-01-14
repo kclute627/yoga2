@@ -1,5 +1,10 @@
 [lfs]
 	url = https://2dcba8f4-2bd9-4c0b-9b6d-058654417e30.netlify.com/.netlify/large-media 
 
+
+[credential]
+  helper = ""
+
+
 [credential]
 	helper = netlify
