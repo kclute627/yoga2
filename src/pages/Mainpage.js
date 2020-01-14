@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import { Document, Page } from 'react-pdf';
 import { connect } from "react-redux";
 import Fade from "react-reveal/Fade";
 import AliceCarousel from "react-alice-carousel";
@@ -13,6 +14,7 @@ import photo6 from "../assets/yoga6.jpg";
 import photo7 from "../assets/yoga7.jpg";
 import photo8 from "../assets/yoga8.jpg";
 import photo9 from "../assets/yoga9.jpg";
+import file from "../assets/pdf/invoice.pdf";
 
 
 
@@ -69,6 +71,9 @@ class Mainpage extends Component {
         <div className="mainpage__home">
           <div className="mainpage__home-header">
             <div className="mainpage__home-header-1">At Home Yoga With Amy</div>
+            <Document file={file} >
+
+            </Document>
             <div className="mainpage__home-header-2">
               Schedule a home yoga session
             </div>
