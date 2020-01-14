@@ -71,9 +71,9 @@ class Mainpage extends Component {
         <div className="mainpage__home">
           <div className="mainpage__home-header">
             <div className="mainpage__home-header-1">At Home Yoga With Amy</div>
-            <Document file={file} >
+            {/* <Document file={file} >
 
-            </Document>
+            </Document> */}
             <div className="mainpage__home-header-2">
               Schedule a home yoga session
             </div>
