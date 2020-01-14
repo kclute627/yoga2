@@ -33,7 +33,7 @@ class Home extends Component {
     
 
     return (
-      <div className="Home">
+      <div className="Home"> 
         
         <Mainpage className="mainpage"/>
 
